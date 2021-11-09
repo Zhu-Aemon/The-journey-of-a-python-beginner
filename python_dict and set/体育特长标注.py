@@ -9,7 +9,7 @@ blank = group1 - (football1 & pp1)
 
 group = set()
 for i in football1:
-    group.add(i + '(足球）')
+    group.add(i + '（足球）')
 for i in pp1:
     group.add(i + '（乒乓）')
 for i in blank:
