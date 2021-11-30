@@ -14,7 +14,6 @@ while True:
         print(
             'welcome to e calculator,'
             'In the shell below Enter the number of digits upto which the value of e should be calculated '
-            'or enter a quit to exit'
               )
         a = (input('>>>'))
         if not a.isdigit():
