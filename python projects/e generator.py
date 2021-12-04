@@ -6,7 +6,7 @@ while True:
         getcontext().prec = k
         k = k + 1
         e = 0
-        for i in range(k):
+        for i in range(k + 10):
             e += Decimal(1/math.factorial(i))
         return Decimal(e)
 
